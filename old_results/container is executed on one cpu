@@ -1,2 +1,0 @@
-The container containting snort is created as follows :
-docker run -itd --name=snort --cpus-set=0 ids
