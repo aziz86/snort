@@ -1,5 +1,9 @@
-Optimize a model with 2551 rows, 442 columns and 4032 nonzeros
-Variable types: 0 continuous, 442 integer (442 binary)
+Academic license - for non-commercial use only
+Warning: linear constraint 52 and linear constraint 53 have the same name "Constraint4"
+Warning: linear constraint 52 and linear constraint 53 have the same name "Constraint4"
+Warning: default constraint names used to write mps file
+Optimize a model with 472 rows, 106 columns and 756 nonzeros
+Variable types: 0 continuous, 106 integer (106 binary)
 Coefficient statistics:
   Matrix range     [1e+00, 2e+00]
   Objective range  [1e+00, 7e+00]
@@ -14,42 +18,41 @@ Multi-objectives: starting optimization with 2 objectives (1 combined) ...
 Multi-objectives: optimize objective 1 (weighted) ...
 ---------------------------------------------------------------------------
 
-Optimize a model with 2551 rows, 442 columns and 4032 nonzeros
-Variable types: 0 continuous, 442 integer (442 binary)
+Optimize a model with 472 rows, 106 columns and 756 nonzeros
+Variable types: 0 continuous, 106 integer (106 binary)
 Coefficient statistics:
   Matrix range     [1e+00, 2e+00]
   Objective range  [1e+00, 7e+00]
   Bounds range     [1e+00, 1e+00]
   RHS range        [1e+00, 6e+00]
-Found heuristic solution: objective 496.0000000
-Presolve removed 2527 rows and 414 columns
+Found heuristic solution: objective 16.0000000
+Presolve removed 441 rows and 15 columns
 Presolve time: 0.00s
-Presolved: 24 rows, 28 columns, 63 nonzeros
-Found heuristic solution: objective 503.0000000
-Variable types: 0 continuous, 28 integer (28 binary)
+Presolved: 31 rows, 91 columns, 196 nonzeros
+Variable types: 0 continuous, 91 integer (91 binary)
 
-Root relaxation: cutoff, 2 iterations, 0.00 seconds
+Root relaxation: objective 1.800000e+01, 6 iterations, 0.00 seconds
 
     Nodes    |    Current Node    |     Objective Bounds      |     Work
  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
 
-     0     0     cutoff    0       503.00000  503.00000  0.00%     -    0s
+*    0     0               0      18.0000000   18.00000  0.00%     -    0s
 
-Explored 0 nodes (2 simplex iterations) in 0.00 seconds
+Explored 0 nodes (6 simplex iterations) in 0.00 seconds
 Thread count was 8 (of 8 available processors)
 
-Solution count 2: 503 501 
+Solution count 2: 18 16 
 
 Optimal solution found (tolerance 1.00e-04)
-Best objective 5.030000000000e+02, best bound 5.030000000000e+02, gap 0.0000%
+Best objective 1.800000000000e+01, best bound 1.800000000000e+01, gap 0.0000%
 
 ---------------------------------------------------------------------------
 Multi-objectives: solved in 0.00 seconds, solution count 2
 
 
-Statistics for mutli_vendor_machine_selection model :
-  Linear constraint matrix    : 2551 Constrs, 442 Vars, 4032 NZs
-  Variable types              : 0 Continuous, 442 Integer (442 Binary)
+Statistics for model MultiVendor Machine selection :
+  Linear constraint matrix    : 472 Constrs, 106 Vars, 756 NZs
+  Variable types              : 0 Continuous, 106 Integer (106 Binary)
   Matrix coefficient range    : [ 1, 2 ]
   Objective coefficient range : [ 1, 7 ]
   Variable bound range        : [ 1, 1 ]
@@ -57,94 +60,13 @@ Statistics for mutli_vendor_machine_selection model :
 
     Variable            X 
 -------------------------
+    Vendor_1            1 
     Vendor_7            1 
         Z_12            1 
         Z_23            1 
         Z_34            1 
-      Y_1115            1 
-      Y_1125            1 
-      Y_1135            1 
-      Y_2115            1 
-      Y_2125            1 
-      Y_2135            1 
-      Y_3115            1 
-      Y_3125            1 
-      Y_3135            1 
-      Y_4115            1 
-      Y_4125            1 
-      Y_4135            1 
-      Y_1215            1 
-      Y_1225            1 
-      Y_1235            1 
-      Y_2215            1 
-      Y_2225            1 
-      Y_2235            1 
-      Y_3215            1 
-      Y_3225            1 
-      Y_3235            1 
-      Y_4215            1 
-      Y_4225            1 
-      Y_4235            1 
-      Y_1315            1 
-      Y_1325            1 
-      Y_1335            1 
-      Y_2315            1 
-      Y_2325            1 
-      Y_2335            1 
-      Y_3315            1 
-      Y_3325            1 
-      Y_3335            1 
-      Y_4315            1 
-      Y_4325            1 
-      Y_4335            1 
-      Y_1415            1 
-      Y_1425            1 
-      Y_1435            1 
-      Y_2415            1 
-      Y_2425            1 
-      Y_2435            1 
-      Y_3415            1 
-      Y_3425            1 
-      Y_3435            1 
-      Y_4415            1 
-      Y_4425            1 
-      Y_4435            1 
-      Y_1515            1 
-      Y_1525            1 
-      Y_1535            1 
-      Y_2515            1 
-      Y_2525            1 
-      Y_2535            1 
-      Y_3515            1 
-      Y_3525            1 
-      Y_3535            1 
-      Y_4515            1 
-      Y_4525            1 
-      Y_4535            1 
-      Y_1615            1 
-      Y_1625            1 
-      Y_1635            1 
-      Y_2615            1 
-      Y_2625            1 
-      Y_2635            1 
-      Y_3615            1 
-      Y_3625            1 
-      Y_3635            1 
-      Y_4615            1 
-      Y_4625            1 
-      Y_4635            1 
-      Y_1712            1 
-      Y_1715            1 
-      Y_1723            1 
-      Y_1725            1 
-      Y_1734            1 
-      Y_1735            1 
-      Y_2715            1 
-      Y_2725            1 
-      Y_2735            1 
-      Y_3715            1 
-      Y_3725            1 
-      Y_3735            1 
-      Y_4715            1 
-      Y_4725            1 
-      Y_4735            1 
+       Y_113            1 
+       Y_171            1 
+       Y_372            1 
+
+Process finished with exit code 0
